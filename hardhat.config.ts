@@ -7,7 +7,7 @@ dotenv.config()
 const config: HardhatUserConfig = {
     solidity: "0.8.18",
     etherscan: {
-        apiKey: process.env.APIKEY_BSC
+        apiKey: process.env.APIKEY_ARB
     },
     networks: {
         hardhat: {},
